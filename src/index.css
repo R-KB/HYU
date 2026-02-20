@@ -1,0 +1,16 @@
+:root {
+  background: #eee;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background: orange;
+  width: 100dvw;
+  margin: 0%;
+}
+
+.footer {
+  text-align: center;
+  background: brown;
+}
