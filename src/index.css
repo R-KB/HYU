@@ -14,3 +14,15 @@
   text-align: center;
   background: brown;
 }
+
+Carousel {
+  width: 50%;
+}
+
+p{
+  background: #000;
+}
+
+h3{
+  background: yellow;
+}
