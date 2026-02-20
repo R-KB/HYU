@@ -1,5 +1,5 @@
 import { Carousel } from "react-bootstrap";
-import PlaceHolder from "./PlaceHolder";
+import PlaceHolder from "../common/PlaceHolder";
 
 export default function MainCarousel() {
   return (

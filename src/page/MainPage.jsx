@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import MainCarousel from "../common/MainCarousel";
+import MainCarousel from "../components/MainCarousel";
 
 export default function MainPage() {
   return (

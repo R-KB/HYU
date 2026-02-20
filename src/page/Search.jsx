@@ -1,17 +1,13 @@
 import { Container } from "react-bootstrap";
+import Result from "../components/Result";
+import SearchForm from "../components/SearchForm";
 
 export default function Search() {
   return (
     <Container>
-      <h2>Search</h2>
+      <SearchForm />
       <hr />
-      <form>
-        <div>
-          <label htmlFor="keyword">keyword search</label>
-          <input type="text" id="keyword" />
-          <input type="submit" />
-        </div>
-      </form>
+      <Result />
     </Container>
   );
 }
