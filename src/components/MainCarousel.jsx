@@ -3,7 +3,7 @@ import PlaceHolder from "../common/PlaceHolder";
 
 export default function MainCarousel() {
   return (
-    <Carousel>
+    <Carousel className="crsel">
       <Carousel.Item>
         <PlaceHolder className="img" text="First slide" />
         <Carousel.Caption>

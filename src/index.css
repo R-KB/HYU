@@ -1,4 +1,4 @@
-:root {
+* {
   background: #eee;
 }
 
@@ -11,18 +11,21 @@
 }
 
 .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100dvw;
   text-align: center;
   background: brown;
 }
 
-Carousel {
-  width: 50%;
+.crsel {
+  width: 80%;
 }
 
-p{
+p {
   background: #000;
 }
 
-h3{
+h3 {
   background: yellow;
 }
