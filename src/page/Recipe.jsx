@@ -1,5 +1,13 @@
+import { Container } from "react-bootstrap";
+import RecipeTop from "../components/RecipeTop";
+import RecipeMain from "../components/RecipeMain";
+
 export default function Recipe() {
   return (
-    <div>Recipe</div>
+    <Container>
+      <RecipeTop />
+      <hr />
+      <RecipeMain />
+    </Container>
   )
 }

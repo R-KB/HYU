@@ -1,5 +1,6 @@
 * {
   background: #eee;
+  overflow: hidden;
 }
 
 .header {
@@ -28,4 +29,25 @@ p {
 
 h3 {
   background: yellow;
+}
+
+.recipe__main {
+  overflow: scroll;
+
+
+}
+
+.recipe__main::-webkit-scrollbar {
+
+  display: none;
+
+}
+
+.recipeTitle__subtitle {
+  background: inherit;
+}
+
+.img__recipe--main {
+  display: flex;
+  justify-content: space-around;
 }
